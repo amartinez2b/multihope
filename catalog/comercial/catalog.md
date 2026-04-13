@@ -309,6 +309,7 @@ ORDER BY pct_rotacion DESC;
 | **Precio catálogo**  | `products.precio_unitario` — precio oficial del producto.                                       |
 | **Precio de venta**  | `sales.precio_unitario` — precio efectivamente cobrado, puede incluir descuentos.               |
 | **_loadtime**        | Timestamp de carga ETL. Presente en todas las tablas. No representa fechas de negocio.         |
+| **Margen por producto** | Diferencia entre `products.precio_unitario` y `sales.precio_unitario`. Indica el descuento aplicado por sucursal. |
 
 ---
 
